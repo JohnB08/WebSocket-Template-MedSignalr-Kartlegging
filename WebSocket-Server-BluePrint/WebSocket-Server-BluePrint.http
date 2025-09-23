@@ -1,0 +1,6 @@
+@WebSocket_Server_BluePrint_HostAddress = http://localhost:5144
+
+GET {{WebSocket_Server_BluePrint_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

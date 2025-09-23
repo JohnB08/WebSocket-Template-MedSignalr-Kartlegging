@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script>
+    <script src="index.js" type="module"></script>
+</head>
+<body>
+<main>
+    <section id="setChannel">
+        <label for="channel">Channel Name</label><input id="channel" placeholder="your channel name" />
+        <button id="joinBtn">Join!</button>
+    </section>
+    <section id="useChat">
+        <label for="user">Your username</label><input id="user" placeholder="your username"/>
+        <label for="message">Message:</label><input id="message" placeholder="type a message">
+        <button id="sendBtn">Send!</button>
+    </section>
+    <section id="messages">
+        <ul id="messageList"></ul>
+    </section>
+</main>
+
+</body>
+</html>

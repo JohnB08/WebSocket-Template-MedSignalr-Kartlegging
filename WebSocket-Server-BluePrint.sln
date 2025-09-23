@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocket-Server-BluePrint", "WebSocket-Server-BluePrint\WebSocket-Server-BluePrint.csproj", "{EBCB9154-7A9D-4A78-924E-4DF236561CAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBCB9154-7A9D-4A78-924E-4DF236561CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBCB9154-7A9D-4A78-924E-4DF236561CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBCB9154-7A9D-4A78-924E-4DF236561CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBCB9154-7A9D-4A78-924E-4DF236561CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
