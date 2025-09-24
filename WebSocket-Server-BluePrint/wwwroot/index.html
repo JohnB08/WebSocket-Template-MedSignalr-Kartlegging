@@ -8,15 +8,22 @@
 </head>
 <body>
 <main>
+    <!--Her logger brukerene seg inn mot en channel.-->
     <section id="setChannel">
         <label for="channel">Channel Name</label><input id="channel" placeholder="your channel name" />
         <button id="joinBtn">Join!</button>
+        <!-- Når de har joinet en channel, havner channelnavnet inni denne spannen her. -->
+        <p>Joined channel: <span id="channelOutput"></span></p>
     </section>
+    
+    <!-- Her styres hva brukernavn brukeren vår bruker. og hva melding de vil skrive, sampt å sente meldinger til channel.-->
     <section id="useChat">
         <label for="user">Your username</label><input id="user" placeholder="your username"/>
         <label for="message">Message:</label><input id="message" placeholder="type a message">
         <button id="sendBtn">Send!</button>
     </section>
+    
+    <!-- Her printes alle meldinger ut, både de sendt fra bruker, men og de som er mottat fra channel. -->
     <section id="messages">
         <ul id="messageList"></ul>
     </section>
